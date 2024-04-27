@@ -10,13 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class DataDTO {
+public class SupportDTO {
 
-    private int id;
-    private String email;
-    @JsonProperty("first_name")
-    private String firstName;
-    @JsonProperty("last_name")
-    private String lastName;
-    private String avatar;
+    private String url;
+    private String text;
 }

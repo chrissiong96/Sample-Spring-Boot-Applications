@@ -3,7 +3,7 @@ package com.example.demo.enums;
 import lombok.Getter;
 
 @Getter
-public enum Status {
+public enum RestResponseStatus {
 
     SUCCESS("Success"),
     FAIL("Fail")
@@ -11,7 +11,7 @@ public enum Status {
 
     private final String code;
 
-    Status(String code) {
+    RestResponseStatus(String code) {
         this.code = code;
     }
 }
